@@ -17,6 +17,8 @@ matplotlib = "*"
 scipy = "*"
 healpy = "*"
 mpmath = "*"
+astropy = "*"
+astroquery = "*"
 jupyterlab = "*"
 ipykernel = "*"
 

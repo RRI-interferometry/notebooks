@@ -15,10 +15,13 @@ This installs all dependencies (healpy, pygdsm, pysm3, etc.) and RRIVis itself i
 
 ## Notebooks
 
-### `catalogs/` — Diffuse Sky Models
+### `catalogs/` — Sky Models and Catalogs
 
 | Notebook | Model | Description |
 |----------|-------|-------------|
+| `gleam.ipynb` | GLEAM EGC | Hurley-Walker et al. (2017) MWA survey, 72–231 MHz. 20-band SEDs, spectral index analysis, source counts, curvature. |
+| `gleam_x.ipynb` | GLEAM-X | DR1 (2022) & DR2 (2024) with MWA Phase II. Curved power-law fitting, peaked-spectrum sources, DR1/DR2 comparison. |
+| `gleam_galactic.ipynb` | GLEAM Galactic | Hurley-Walker et al. (2019) Galactic plane catalog. Inner/outer Galaxy, HII/SNR populations, spectral index maps. |
 | `gsm2008.ipynb` | GSM2008 | de Oliveira-Costa et al. (2008) PCA model, 10 MHz – 94 GHz. Basemap, interpolation, and CMB comparisons. |
 | `gsm2016.ipynb` | GSM2016 | Zheng et al. (2017) PCA model, 10 MHz – 5 THz. Resolution, data unit, interpolation, and CMB comparisons. |
 | `haslam.ipynb` | Haslam 408 MHz | Haslam et al. (1982) map with power-law spectral scaling. Spectral index sensitivity and GSM2008 comparison. |
